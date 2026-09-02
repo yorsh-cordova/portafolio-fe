@@ -1,3 +1,8 @@
+.contact_wrapper {
+  position: relative;
+  z-index: 3;
+}
+
 .contact_wrapper svg {
   font-size: 1em;
   vertical-align: middle;
@@ -5,7 +10,56 @@
 }
 
 .contact-form {
+  position: relative;
+  z-index: 3;
+  pointer-events: auto;
   padding-top: 20px;
+
+  .MuiInputBase-root {
+    background-color: white;
+  }
+
+  .MuiInputBase-input,
+  textarea.MuiInputBase-input {
+    color: #0d1116 !important;
+    caret-color: #0d1116;
+  }
+
+  .MuiFormLabel-root {
+    color: #4b5563 !important;
+  }
+
+  .MuiInputLabel-root {
+    font-size: 1rem !important;
+    line-height: 1.2;
+    color: #4b5563 !important;
+  }
+
+  .MuiInputLabel-root.Mui-focused {
+    color: #374151 !important;
+  }
+
+  .MuiInputLabel-root.Mui-error {
+    color: #d32f2f !important;
+  }
+
+  .MuiInputLabel-root.MuiInputLabel-shrink {
+    background-color: #ffffff;
+    padding: 0 6px;
+    border-radius: 6px;
+  }
+
+  .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(15, 23, 42, 0.35) !important;
+  }
+
+  .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #2563eb !important;
+  }
+
+  .MuiFormHelperText-root {
+    color: #9ca3af;
+  }
 
   button {
     float: right;
@@ -18,14 +72,7 @@
     color: white;
   }
 
-  fieldset {
-    background-color: white;
-  }
-}
 
-label {
-  font-size: 1.2rem;
-  font-family: 'DomaineDispNar-Medium', sans-serif;
 }
 
 .form-flex {
@@ -36,6 +83,7 @@ label {
 
 .form-flex .MuiFormControl-root {
   width: 100%;
+  pointer-events: auto;
 }
 
 form {

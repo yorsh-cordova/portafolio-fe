@@ -16,50 +16,88 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2022 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Site Reliability Engineer Specialist</h3>
+            <h4 className="vertical-timeline-element-subtitle">Equifax</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Leading SRE teams focused on automation, observability, high availability, and secure cloud platforms across multiple regions.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2022"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Site Reliability Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Webdox Legal</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Managed cloud infrastructure uptime, automated SDLC processes, and helped resolve production incidents as part of the First Responder team.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2019 - 2022"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Site Reliability Engineer Career</h3>
+            <h4 className="vertical-timeline-element-subtitle">Equifax</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Led cloud adoption and reliability practices through automation, monitoring, incident management, and continuous process improvement.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2018 - 2019"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Software Developer Career</h3>
+            <h4 className="vertical-timeline-element-subtitle">Equifax</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Led development delivery, applied DevOps practices, supported production operations, and helped teams migrate workloads to public cloud.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2016 - 2018"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Software Developer Intermediate</h3>
+            <h4 className="vertical-timeline-element-subtitle">Equifax</h4>
+            <p>
+              Built and implemented SaaS-oriented solutions, delivered customer products, and contributed R&D insights for scalable software architecture.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2015 - 2016"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Technical Consultant Leader</h3>
+            <h4 className="vertical-timeline-element-subtitle">Equifax</h4>
+            <p>
+              Provided technical leadership, mentoring, and cross-team coordination to deliver project outcomes on schedule, budget, and quality goals.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2014 - 2015"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Technical Consultant Entry</h3>
+            <h4 className="vertical-timeline-element-subtitle">Equifax</h4>
+            <p>
+              Focused on technical design, development, testing, and client interaction to identify and deliver application requirements.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

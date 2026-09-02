@@ -84,3 +84,22 @@ You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/)
 4. **Access Your Deployed App**
 
     After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
+
+## Contact Form (Real Emails)
+
+The contact section can send real emails with EmailJS.
+
+1. Create an account at [EmailJS](https://www.emailjs.com/).
+2. Create an email service (Gmail, Outlook, etc.).
+3. Create an email template with variables like `from_name`, `reply_to`, and `message`.
+4. In the project root, create a `.env` file and add:
+
+    ```bash
+    REACT_APP_EMAILJS_SERVICE_ID=your_service_id
+    REACT_APP_EMAILJS_TEMPLATE_ID=your_template_id
+    REACT_APP_EMAILJS_PUBLIC_KEY=your_public_key
+    ```
+
+5. Restart the dev server after editing environment variables.
+
+If any variable is missing, the form will show a configuration error instead of sending.

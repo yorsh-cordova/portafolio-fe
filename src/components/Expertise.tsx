@@ -1,44 +1,45 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faServer, faCloud, faUsersGear } from '@fortawesome/free-solid-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
+    "Java",
+    "Bash",
+    "Groovy",
+    "Terraform",
+    "Git",
+    "Linux",
     "PostgreSQL",
-    "Postman"
+    "Kubernetes",
+    "Docker",
+    "Jenkins"
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
+    "Datadog",
+    "Grafana",
+    "PagerDuty",
+    "ServiceNow",
+    "Nginx",
     "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "GCP",
+    "CI/CD",
+    "Monitoring",
+    "High Availability",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "SLO/SLA",
+    "RTO/RPO",
+    "DR/BCM",
+    "Incident Management",
+    "Change Management",
+    "Problem Management",
+    "RCA",
+    "Mentoring",
 ];
 
 function Expertise() {
@@ -48,9 +49,9 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <FontAwesomeIcon icon={faServer} size="3x"/>
+                    <h3>Site Reliability Engineering</h3>
+                    <p>I lead SRE initiatives focused on automation, secure environments, and platform resilience. My background combines software engineering with operational excellence to improve reliability at scale.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -60,9 +61,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <FontAwesomeIcon icon={faCloud} size="3x"/>
+                    <h3>Cloud Operations & Observability</h3>
+                    <p>I build and operate cloud platforms across AWS and GCP, with strong focus on uptime, monitoring, and incident response. I design support models and processes that improve service quality across large teams.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -72,9 +73,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <FontAwesomeIcon icon={faUsersGear} size="3x"/>
+                    <h3>Reliability Strategy & Leadership</h3>
+                    <p>I mentor engineers in cloud adoption and SRE practices while partnering with architecture teams to define reliability targets from day one, including SLO/SLA, RTO/RPO, and disaster recovery readiness.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
